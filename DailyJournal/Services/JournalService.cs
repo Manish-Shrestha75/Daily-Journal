@@ -50,13 +50,24 @@ namespace DailyJournal.Services
         public async Task<List<JournalEntry>> SearchJournalAsync(string searchText)
         {
             await InitAsync();
-            if (string.IsNullOrWhiteSpace(searchText)) return await GetHistoryAsync();
+            if (string.IsNullOrWhiteSpace(searchText))
+                return await GetHistoryAsync();
 
             var all = await _db!.Table<JournalEntry>().ToListAsync();
-            return all.Where(x => x.Content.Contains(searchText, StringComparison.OrdinalIgnoreCase)
-                               || x.PrimaryMood.Contains(searchText, StringComparison.OrdinalIgnoreCase))
-                      .OrderByDescending(x => x.EntryDate).ToList();
+
+            return all.Where(x =>
+                    x.Content.Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
+                    x.PrimaryMood.Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
+                    (x.Tags != null &&
+                     x.Tags.Contains(searchText, StringComparison.OrdinalIgnoreCase))
+                )
+                .OrderByDescending(x => x.EntryDate)
+                .ToList();
         }
+
+
+
+
 
         public async Task<DashboardStats> GetDashboardStatsAsync()
         {

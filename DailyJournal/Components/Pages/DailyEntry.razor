@@ -40,6 +40,14 @@
                 <label class="form-label fw-bold">📖 Content:</label>
                 <textarea @bind="currentEntry.Content" class="form-control" rows="8"></textarea>
             </div>
+            <div class="mb-3">
+                <label class="form-label fw-bold">🏷️ Tags</label>
+                <input class="form-control"
+                       placeholder="e.g. study, work, health"
+                       @bind="currentEntry.Tags" />
+                <small class="text-muted">Separate tags using commas</small>
+            </div>
+
 
             <button class="btn btn-success px-4" @onclick="SaveEntry">💾 Save Changes</button>
         </div>

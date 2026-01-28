@@ -1,0 +1,8 @@
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\index.html
+E:\DailyJournal\DailyJournal\wwwroot\index.html
+E:\DailyJournal\DailyJournal\wwwroot\css\bootstrap\bootstrap.min.css.map
+E:\DailyJournal\DailyJournal\wwwroot\css\bootstrap\bootstrap.min.css
+E:\DailyJournal\DailyJournal\wwwroot\css\app.css
