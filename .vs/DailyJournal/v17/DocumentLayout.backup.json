@@ -1,0 +1,402 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\DailyJournal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\components\\pages\\settings.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\components\\pages\\settings.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\components\\pages\\dailyentry.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\components\\pages\\dailyentry.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\services\\pdfexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\services\\pdfexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\services\\journalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\services\\journalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\services\\interfaces\\ijournalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\services\\interfaces\\ijournalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\models\\mood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\models\\mood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\models\\journalentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\models\\journalentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\models\\dashboardstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\models\\dashboardstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\data\\journaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\data\\journaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\components\\pages\\journalhistory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\components\\pages\\journalhistory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\components\\pages\\calendarview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\components\\pages\\calendarview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|e:\\dailyjournal\\dailyjournal\\dailyjournal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0F3F6101-4222-4701-AEEB-A7E160A917DB}|DailyJournal\\DailyJournal.csproj|solutionrelative:dailyjournal\\dailyjournal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JournalDbContext.cs",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\Data\\JournalDbContext.cs",
+              "RelativeDocumentMoniker": "DailyJournal\\Data\\JournalDbContext.cs",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\Data\\JournalDbContext.cs",
+              "RelativeToolTip": "DailyJournal\\Data\\JournalDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:28:01.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashboardStats.cs",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\Models\\DashboardStats.cs",
+              "RelativeDocumentMoniker": "DailyJournal\\Models\\DashboardStats.cs",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\Models\\DashboardStats.cs",
+              "RelativeToolTip": "DailyJournal\\Models\\DashboardStats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T14:44:26.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JournalEntry.cs",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\Models\\JournalEntry.cs",
+              "RelativeDocumentMoniker": "DailyJournal\\Models\\JournalEntry.cs",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\Models\\JournalEntry.cs",
+              "RelativeToolTip": "DailyJournal\\Models\\JournalEntry.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:28:37.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Mood.cs",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\Models\\Mood.cs",
+              "RelativeDocumentMoniker": "DailyJournal\\Models\\Mood.cs",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\Models\\Mood.cs",
+              "RelativeToolTip": "DailyJournal\\Models\\Mood.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:28:47.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IJournalService.cs",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\Services\\Interfaces\\IJournalService.cs",
+              "RelativeDocumentMoniker": "DailyJournal\\Services\\Interfaces\\IJournalService.cs",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\Services\\Interfaces\\IJournalService.cs",
+              "RelativeToolTip": "DailyJournal\\Services\\Interfaces\\IJournalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:29:48.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JournalService.cs",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\Services\\JournalService.cs",
+              "RelativeDocumentMoniker": "DailyJournal\\Services\\JournalService.cs",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\Services\\JournalService.cs",
+              "RelativeToolTip": "DailyJournal\\Services\\JournalService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAwwE4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:30:26.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\MainPage.xaml",
+              "RelativeDocumentMoniker": "DailyJournal\\MainPage.xaml",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\MainPage.xaml",
+              "RelativeToolTip": "DailyJournal\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-28T01:01:36.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "DailyJournal\\MauiProgram.cs",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\MauiProgram.cs",
+              "RelativeToolTip": "DailyJournal\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:39:29.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DailyEntry.razor",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\Components\\Pages\\DailyEntry.razor",
+              "RelativeDocumentMoniker": "DailyJournal\\Components\\Pages\\DailyEntry.razor",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\Components\\Pages\\DailyEntry.razor",
+              "RelativeToolTip": "DailyJournal\\Components\\Pages\\DailyEntry.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T12:38:41.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\Components\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "DailyJournal\\Components\\Pages\\Dashboard.razor",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\Components\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "DailyJournal\\Components\\Pages\\Dashboard.razor",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAABsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T12:24:09.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Settings.razor",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\Components\\Pages\\Settings.razor",
+              "RelativeDocumentMoniker": "DailyJournal\\Components\\Pages\\Settings.razor",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\Components\\Pages\\Settings.razor",
+              "RelativeToolTip": "DailyJournal\\Components\\Pages\\Settings.razor",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAAMIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T12:25:17.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\App.xaml",
+              "RelativeDocumentMoniker": "DailyJournal\\App.xaml",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\App.xaml",
+              "RelativeToolTip": "DailyJournal\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-28T01:36:08.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "DailyJournal\\Components\\Routes.razor",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\Components\\Routes.razor",
+              "RelativeToolTip": "DailyJournal\\Components\\Routes.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T14:33:35.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "DailyJournal\\Components\\_Imports.razor",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\Components\\_Imports.razor",
+              "RelativeToolTip": "DailyJournal\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T14:20:58.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.razor",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "DailyJournal\\Components\\Pages\\Login.razor",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "DailyJournal\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T12:25:32.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PdfExportService.cs",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\Services\\PdfExportService.cs",
+              "RelativeDocumentMoniker": "DailyJournal\\Services\\PdfExportService.cs",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\Services\\PdfExportService.cs",
+              "RelativeToolTip": "DailyJournal\\Services\\PdfExportService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:31:00.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "JournalHistory.razor",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\Components\\Pages\\JournalHistory.razor",
+              "RelativeDocumentMoniker": "DailyJournal\\Components\\Pages\\JournalHistory.razor",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\Components\\Pages\\JournalHistory.razor",
+              "RelativeToolTip": "DailyJournal\\Components\\Pages\\JournalHistory.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T13:19:29.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CalendarView.razor",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\Components\\Pages\\CalendarView.razor",
+              "RelativeDocumentMoniker": "DailyJournal\\Components\\Pages\\CalendarView.razor",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\Components\\Pages\\CalendarView.razor",
+              "RelativeToolTip": "DailyJournal\\Components\\Pages\\CalendarView.razor",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAgwIYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T13:26:44.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "DailyJournal\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "DailyJournal\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T13:25:03.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "DailyJournal\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "DailyJournal\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T12:39:00.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "app.css",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "DailyJournal\\wwwroot\\css\\app.css",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "DailyJournal\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwDsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-28T00:39:52.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "index.html",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "DailyJournal\\wwwroot\\index.html",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\wwwroot\\index.html",
+              "RelativeToolTip": "DailyJournal\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-28T00:38:07.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DailyJournal.csproj",
+              "DocumentMoniker": "E:\\DailyJournal\\DailyJournal\\DailyJournal.csproj",
+              "RelativeDocumentMoniker": "DailyJournal\\DailyJournal.csproj",
+              "ToolTip": "E:\\DailyJournal\\DailyJournal\\DailyJournal.csproj",
+              "RelativeToolTip": "DailyJournal\\DailyJournal.csproj",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-27T12:27:02.585Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

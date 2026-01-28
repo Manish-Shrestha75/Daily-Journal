@@ -1,0 +1,52 @@
+﻿@page "/dashboard"
+@using DailyJournal.Models
+@using DailyJournal.Services.Interfaces
+@inject IJournalService JournalService
+
+<div class="container mt-4">
+    <h3 class="text-primary mb-4">📊 Dashboard</h3>
+
+    @if (stats != null)
+    {
+        <div class="row text-center mb-4">
+            <div class="col-6">
+                <div class="card p-3 bg-light border-primary">
+                    <h1>🔥 @stats.CurrentStreak</h1>
+                    <small>Day Streak</small>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card p-3 bg-light border-success">
+                    <h1>📝 @stats.TotalEntries</h1>
+                    <small>Total Entries</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="card p-4 shadow-sm">
+            <h5>Mood Breakdown</h5>
+            <ul class="list-group list-group-flush">
+                @foreach (var mood in stats.MoodCounts)
+                {
+                    <li class="list-group-item d-flex justify-content-between">
+                        <span>@Mood.GetEmoji(mood.Key) @mood.Key</span>
+                        <span class="badge bg-primary rounded-pill">@mood.Value</span>
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+    else
+    {
+        <p>Loading stats...</p>
+    }
+</div>
+
+@code {
+    private DashboardStats? stats;
+
+    protected override async Task OnInitializedAsync()
+    {
+        stats = await JournalService.GetDashboardStatsAsync();
+    }
+}

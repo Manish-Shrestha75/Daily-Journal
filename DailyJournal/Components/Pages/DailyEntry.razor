@@ -1,0 +1,81 @@
+﻿@page "/"
+@page "/write"
+@using DailyJournal.Models
+@using DailyJournal.Services.Interfaces
+@inject IJournalService JournalService
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h1 class="text-primary">📝 My Daily Journal</h1>
+        <span class="badge bg-secondary">Debug Mode</span>
+    </div>
+
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger">@errorMessage</div>
+    }
+
+    <div class="mb-4 p-3 bg-light rounded border shadow-sm">
+        <label class="fw-bold">📅 Select Date:</label>
+        <div class="input-group mt-1">
+            <input type="date" @bind="targetDate" class="form-control" />
+            <button class="btn btn-primary" @onclick="LoadEntry">Load Entry</button>
+        </div>
+    </div>
+
+    @if (currentEntry != null)
+    {
+        <div class="card shadow-sm p-4">
+            <div class="mb-3">
+                <label class="form-label fw-bold">Primary Mood:</label>
+                <select @bind="currentEntry.PrimaryMood" class="form-select">
+                    @foreach (var mood in Mood.All)
+                    {
+                        <option value="@mood">@Mood.GetEmoji(mood) @mood</option>
+                    }
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-bold">📖 Content:</label>
+                <textarea @bind="currentEntry.Content" class="form-control" rows="8"></textarea>
+            </div>
+
+            <button class="btn btn-success px-4" @onclick="SaveEntry">💾 Save Changes</button>
+        </div>
+    }
+</div>
+
+@code {
+    private DateTime targetDate = DateTime.Today;
+    private JournalEntry? currentEntry;
+    private string errorMessage = ""; 
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadEntry();
+    }
+
+    private async Task LoadEntry()
+    {
+        try
+        {
+            errorMessage = "";
+            currentEntry = await JournalService.FindEntryAsync(targetDate);
+            if (currentEntry == null)
+            {
+                currentEntry = new JournalEntry { EntryDate = targetDate, PrimaryMood = "Neutral", Content = "" };
+            }
+        }
+        catch (Exception ex) { errorMessage = ex.Message; }
+    }
+
+    private async Task SaveEntry()
+    {
+        try
+        {
+            if (currentEntry != null) await JournalService.UpsertEntryAsync(currentEntry);
+        }
+        catch (Exception ex) { errorMessage = ex.Message; }
+    }
+}

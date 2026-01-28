@@ -1,0 +1,50 @@
+﻿@inherits LayoutComponentBase
+@using Microsoft.Maui.Storage
+@using DailyJournal.Components.Pages
+
+<div class="page">
+
+    @if (isLocked)
+    {
+        <Login OnUnlock="UnlockApp" />
+    }
+    else
+    {
+        <div class="sidebar">
+            <NavMenu />
+        </div>
+
+        <main>
+            <div class="top-row px-4">
+                <a href="#" class="text-muted">My Daily Journal</a>
+            </div>
+
+            <article class="content px-4">
+                @Body
+            </article>
+        </main>
+    }
+</div>
+
+@code {
+    private bool isLocked = false;
+
+    protected override void OnInitialized()
+    {
+        // Checking if the user has set a PIN in settings
+        string savedPin = Preferences.Get("UserPin", "");
+
+        if (!string.IsNullOrEmpty(savedPin))
+        {
+            // If a PIN exists, lock the app immediately
+            isLocked = true;
+        }
+    }
+
+    //  This will run when the user types the correct PIN
+    private void UnlockApp()
+    {
+        isLocked = false;
+        StateHasChanged(); 
+    }
+}

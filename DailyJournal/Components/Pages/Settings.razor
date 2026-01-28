@@ -1,0 +1,200 @@
+﻿@page "/settings"
+@using Microsoft.Maui.Storage
+@using DailyJournal.Services.Interfaces
+@using System.Text.Json
+@inject IJournalService JournalService
+@inject DailyJournal.Services.PdfExportService PdfService
+@using DailyJournal.Services
+@using System.Linq
+@inject PdfExportService PdfService
+
+
+<div class="container mt-4 @(isDarkMode ? "dark-mode" : "")">
+
+    <h3 class="text-primary mb-4">⚙️ Settings</h3>
+
+    <div class="row">
+        
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-header bg-white fw-bold">🔒 Security</div>
+                <div class="card-body">
+                    <p class="text-muted small">Protect your journal with a 4-digit PIN.</p>
+                    
+                    @if (hasPin)
+                    {
+                        <div class="alert alert-success py-2"> Journal is Locked</div>
+                        <button class="btn btn-danger w-100" @onclick="RemovePin">Remove Lock</button>
+                    }
+                    else
+                    {
+                        <div class="input-group mb-3">
+                            <input type="password" class="form-control" placeholder="1234" maxlength="4" @bind="newPin" />
+                            <button class="btn btn-primary" @onclick="SavePin">Set PIN</button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-header bg-white fw-bold">🎨 Appearance</div>
+                <div class="card-body">
+                    <p class="text-muted small">Customize how the app looks.</p>
+                    
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="darkModeSwitch" checked="@isDarkMode" @onchange="ToggleDarkMode">
+                        <label class="form-check-label" for="darkModeSwitch">Dark Mode</label>
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <div class="card shadow-sm">
+                <div class="card-header bg-white fw-bold">💾 Data Management</div>
+                <div class="card-body">
+                    <div class="d-flex gap-2">
+                        <button class="btn btn-outline-primary" @onclick="ExportData">
+                            Export to PDF
+                        </button>
+                        
+                        <button class="btn btn-outline-danger" @onclick="DeleteAllData">
+                            Delete All Entries
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<style>
+    .dark-mode {
+        background-color: #121212;
+        color: #e0e0e0;
+        min-height: 100vh;
+        padding: 1rem;
+        border-radius: 8px;
+    }
+
+        .dark-mode .card {
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+            border: 1px solid #2a2a2a;
+        }
+
+        .dark-mode .card-header {
+            background-color: #1e1e1e !important;
+            color: #ffffff;
+        }
+
+        .dark-mode .text-muted {
+            color: #b0b0b0 !important;
+        }
+
+        .dark-mode .btn-outline-primary {
+            color: #90caf9;
+            border-color: #90caf9;
+        }
+
+        .dark-mode .btn-outline-danger {
+            color: #ef9a9a;
+            border-color: #ef9a9a;
+        }
+</style>
+
+
+@code {
+    
+    private string newPin = "";
+    private bool hasPin = false;
+    private bool isDarkMode = false;
+
+   
+    protected override void OnInitialized()
+    {
+        // Checking PIN
+        hasPin = !string.IsNullOrEmpty(Preferences.Get("UserPin", ""));
+        // Check Theme
+        isDarkMode = Preferences.Get("IsDarkMode", false);
+    }
+
+    // SECURITY LOGIC 
+    private async Task SavePin()
+    {
+        if (newPin.Length == 4 && int.TryParse(newPin, out _))
+        {
+            Preferences.Set("UserPin", newPin);
+            hasPin = true;
+            newPin = "";
+            await Application.Current.MainPage.DisplayAlert("Success", "Journal Locked!", "OK");
+        }
+        else
+        {
+            await Application.Current.MainPage.DisplayAlert("Error", "PIN must be 4 digits.", "OK");
+        }
+    }
+
+    private void RemovePin()
+    {
+        Preferences.Remove("UserPin");
+        hasPin = false;
+    }
+
+    //THEME LOGIC
+    private void ToggleDarkMode(ChangeEventArgs e)
+    {
+        isDarkMode = (bool)e.Value!;
+        Preferences.Set("IsDarkMode", isDarkMode);
+       
+    }
+
+    // Exzport DATA LOGIC
+    private async Task ExportData()
+    {
+        var entries = (await JournalService.GetHistoryAsync()).ToList();
+
+        if (entries.Count == 0)
+        {
+            await Application.Current!.Windows[0].Page.DisplayAlert(
+                "No Data",
+                "There are no journal entries to export.",
+                "OK");
+            return;
+        }
+
+        // Determine date range
+        var startDate = entries.Min(e => e.EntryDate);
+        var endDate = entries.Max(e => e.EntryDate);
+
+        // Generate PDF
+        var filePath = await PdfService.GeneratePdfAsync(
+            entries,
+            startDate,
+            endDate);
+
+        await Application.Current!.Windows[0].Page.DisplayAlert(
+            "PDF Exported",
+            $"PDF saved successfully:\n\n{filePath}",
+            "OK");
+    }
+
+
+    private async Task DeleteAllData()
+    {
+        bool confirm = await Application.Current.MainPage.DisplayAlert("WARNING", "This will delete ALL entries permanently. Are you sure?", "Yes, Delete", "Cancel");
+        if (confirm)
+        {
+            var entries = await JournalService.GetHistoryAsync();
+            foreach(var entry in entries)
+            {
+                await JournalService.DeleteEntryAsync(entry);
+            }
+            await Application.Current.MainPage.DisplayAlert("Done", "All entries deleted.", "OK");
+        }
+    }
+}

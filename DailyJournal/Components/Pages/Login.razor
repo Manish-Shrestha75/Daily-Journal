@@ -1,0 +1,46 @@
+﻿@page "/login"
+@using Microsoft.Maui.Storage
+
+<div class="d-flex justify-content-center align-items-center vh-100 bg-light">
+    <div class="card shadow p-4 text-center" style="width: 350px;">
+        <h1 class="display-1">🔒</h1>
+        <h3>Journal Locked</h3>
+        <p class="text-muted">Enter your 4-digit PIN</p>
+
+        <div class="mb-3">
+            <input type="password" 
+                   class="form-control text-center fs-4" 
+                   maxlength="4" 
+                   @bind="enteredPin" 
+                   placeholder="****" />
+        </div>
+
+        <button class="btn btn-primary w-100 btn-lg" @onclick="AttemptLogin">Unlock</button>
+
+        @if (!string.IsNullOrEmpty(errorMessage))
+        {
+            <div class="alert alert-danger mt-3">@errorMessage</div>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter] public EventCallback OnUnlock { get; set; }
+    private string enteredPin = "";
+    private string errorMessage = "";
+
+    private async Task AttemptLogin()
+    {
+        string savedPin = Preferences.Get("UserPin", "");
+
+        if (enteredPin == savedPin)
+        {
+            await OnUnlock.InvokeAsync(); // only unlocks in the Correct PIN
+        }
+        else
+        {
+            errorMessage = "Wrong PIN. Try again.";
+            enteredPin = "";
+        }
+    }
+}

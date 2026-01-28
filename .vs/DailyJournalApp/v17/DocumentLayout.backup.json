@@ -1,0 +1,252 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\dailyjournalapp\\dailyjournalapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|solutionrelative:dailyjournalapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\dailyjournalapp\\dailyjournalapp\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|solutionrelative:dailyjournalapp\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\dailyjournalapp\\dailyjournalapp\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|solutionrelative:dailyjournalapp\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\dailyjournalapp\\dailyjournalapp\\components\\pages\\calendar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|solutionrelative:dailyjournalapp\\components\\pages\\calendar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\dailyjournalapp\\dailyjournalapp\\dailyjournalapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|solutionrelative:dailyjournalapp\\dailyjournalapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\dailyjournalapp\\dailyjournalapp\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|solutionrelative:dailyjournalapp\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\dailyjournalapp\\dailyjournalapp\\services\\journalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|solutionrelative:dailyjournalapp\\services\\journalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\dailyjournalapp\\dailyjournalapp\\models\\journalentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|solutionrelative:dailyjournalapp\\models\\journalentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\dailyjournalapp\\dailyjournalapp\\models\\mood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|solutionrelative:dailyjournalapp\\models\\mood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\dailyjournalapp\\dailyjournalapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|solutionrelative:dailyjournalapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\dailyjournalapp\\dailyjournalapp\\components\\pages\\journal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|solutionrelative:dailyjournalapp\\components\\pages\\journal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\dailyjournalapp\\dailyjournalapp\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|solutionrelative:dailyjournalapp\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\dailyjournalapp\\dailyjournalapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|solutionrelative:dailyjournalapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|c:\\users\\lenovo\\onedrive\\desktop\\dailyjournalapp\\dailyjournalapp\\data\\appdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F068A95-51C2-4B38-8DCB-F8282D325CF8}|DailyJournalApp\\DailyJournalApp.csproj|solutionrelative:dailyjournalapp\\data\\appdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Calendar.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Components\\Pages\\Calendar.razor",
+              "RelativeDocumentMoniker": "DailyJournalApp\\Components\\Pages\\Calendar.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Components\\Pages\\Calendar.razor",
+              "RelativeToolTip": "DailyJournalApp\\Components\\Pages\\Calendar.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-24T08:56:22.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Components\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "DailyJournalApp\\Components\\Pages\\Dashboard.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Components\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "DailyJournalApp\\Components\\Pages\\Dashboard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-24T08:55:56.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "DailyJournalApp\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "DailyJournalApp\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-24T08:55:37.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "DailyJournalApp\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\MainPage.xaml",
+              "RelativeToolTip": "DailyJournalApp\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-24T08:55:27.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "DailyJournalApp\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Components\\Routes.razor",
+              "RelativeToolTip": "DailyJournalApp\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-24T08:55:17.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "DailyJournalApp\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "DailyJournalApp\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-24T08:51:50.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JournalService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Services\\JournalService.cs",
+              "RelativeDocumentMoniker": "DailyJournalApp\\Services\\JournalService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Services\\JournalService.cs",
+              "RelativeToolTip": "DailyJournalApp\\Services\\JournalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T08:51:03.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "DailyJournalApp\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Services\\AuthService.cs",
+              "RelativeToolTip": "DailyJournalApp\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T08:50:53.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Mood.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Models\\Mood.cs",
+              "RelativeDocumentMoniker": "DailyJournalApp\\Models\\Mood.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Models\\Mood.cs",
+              "RelativeToolTip": "DailyJournalApp\\Models\\Mood.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T08:51:26.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JournalEntry.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Models\\JournalEntry.cs",
+              "RelativeDocumentMoniker": "DailyJournalApp\\Models\\JournalEntry.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Models\\JournalEntry.cs",
+              "RelativeToolTip": "DailyJournalApp\\Models\\JournalEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T08:51:16.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DailyJournalApp.csproj",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\DailyJournalApp.csproj",
+              "RelativeDocumentMoniker": "DailyJournalApp\\DailyJournalApp.csproj",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\DailyJournalApp.csproj",
+              "RelativeToolTip": "DailyJournalApp\\DailyJournalApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-24T08:49:48.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "DailyJournalApp\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\MauiProgram.cs",
+              "RelativeToolTip": "DailyJournalApp\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T08:54:42.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Data\\AppDatabase.cs",
+              "RelativeDocumentMoniker": "DailyJournalApp\\Data\\AppDatabase.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Data\\AppDatabase.cs",
+              "RelativeToolTip": "DailyJournalApp\\Data\\AppDatabase.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T08:51:39.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Journal.razor",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Components\\Pages\\Journal.razor",
+              "RelativeDocumentMoniker": "DailyJournalApp\\Components\\Pages\\Journal.razor",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\DailyJournalApp\\DailyJournalApp\\Components\\Pages\\Journal.razor",
+              "RelativeToolTip": "DailyJournalApp\\Components\\Pages\\Journal.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-24T08:47:24.498Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

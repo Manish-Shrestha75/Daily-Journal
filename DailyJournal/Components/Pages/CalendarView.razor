@@ -1,0 +1,162 @@
+﻿@page "/calendar"
+@using DailyJournal.Models
+@using DailyJournal.Services.Interfaces
+@inject IJournalService JournalService
+@inject NavigationManager NavManager
+
+<div class="container mt-4">
+    <h3 class="text-primary mb-3">📅 Calendar View</h3>
+
+    <div class="d-flex justify-content-between align-items-center mb-3 bg-light p-3 rounded shadow-sm">
+        <button class="btn btn-outline-primary" @onclick="() => ChangeMonth(-1)">◀ Previous</button>
+        <h4 class="m-0 fw-bold">@currentMonth.ToString("MMMM yyyy")</h4>
+        <button class="btn btn-outline-primary" @onclick="() => ChangeMonth(1)">Next ▶</button>
+    </div>
+
+    <div class="calendar-grid shadow">
+        <div class="day-header">Sun</div>
+        <div class="day-header">Mon</div>
+        <div class="day-header">Tue</div>
+        <div class="day-header">Wed</div>
+        <div class="day-header">Thu</div>
+        <div class="day-header">Fri</div>
+        <div class="day-header">Sat</div>
+
+        @foreach (var day in calendarDays)
+        {
+            <div class="day-cell @(day.IsToday ? "today" : "") @(day.HasEntry ? "has-entry" : "")" 
+                 @onclick="() => OpenDate(day.Date)">
+                
+                <span class="day-number">@day.Date.Day</span>
+                
+                @if (day.HasEntry)
+                {
+                    <div class="mood-dot">@day.MoodEmoji</div>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    .calendar-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 5px;
+        background: #fff;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .day-header {
+        text-align: center;
+        font-weight: bold;
+        padding: 10px;
+        background-color: #f8f9fa;
+    }
+    .day-cell {
+        height: 100px;
+        border: 1px solid #e9ecef;
+        padding: 5px;
+        cursor: pointer;
+        position: relative;
+        transition: 0.2s;
+        border-radius: 5px;
+    }
+    .day-cell:hover { background-color: #f1f3f5; }
+    
+    .today { border: 2px solid #0d6efd; background-color: #e7f1ff; }
+ 
+    .has-entry { background-color: #d4edda; border-color: #c3e6cb; }
+    
+    .mood-dot {
+        font-size: 24px;
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+    }
+    .day-number { font-weight: bold; color: #495057; }
+</style>
+
+@code {
+    private DateTime currentMonth = DateTime.Today;
+    private List<CalendarDay> calendarDays = new List<CalendarDay>();
+    private List<JournalEntry> allEntries = new List<JournalEntry>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Loading all the history to check which dates have entries
+        allEntries = await JournalService.GetHistoryAsync();
+        GenerateCalendar();
+    }
+
+    private void ChangeMonth(int offset)
+    {
+        currentMonth = currentMonth.AddMonths(offset);
+        GenerateCalendar();
+    }
+
+    private void GenerateCalendar()
+    {
+        calendarDays.Clear();
+
+        // this will help to figure out when the month starts
+        DateTime firstDayOfMonth = new DateTime(currentMonth.Year, currentMonth.Month, 1);
+        int daysInMonth = DateTime.DaysInMonth(currentMonth.Year, currentMonth.Month);
+        
+        //  Adding empty slots for days before the 1st (e.g., if 1st is Wednesday, skip Sun/Mon/Tue)
+        int startDayOfWeek = (int)firstDayOfMonth.DayOfWeek; 
+        for (int i = 0; i < startDayOfWeek; i++)
+        {
+            // Adding the  dummy empty days with date minvalue
+            calendarDays.Add(new CalendarDay { Date = DateTime.MinValue }); 
+        }
+
+        //  Adding the actual days
+        for (int i = 1; i <= daysInMonth; i++)
+        {
+            DateTime date = new DateTime(currentMonth.Year, currentMonth.Month, i);
+            
+            // Check if entry exists for this day
+            var entry = allEntries.FirstOrDefault(e => e.EntryDate.Date == date.Date);
+
+            calendarDays.Add(new CalendarDay
+            {
+                Date = date,
+                IsToday = date == DateTime.Today,
+                HasEntry = entry != null,
+                MoodEmoji = entry != null ? GetMoodEmoji(entry.PrimaryMood) : ""
+            });
+        }
+    }
+
+    private string GetMoodEmoji(string mood)
+    {
+        return mood switch
+        {
+            "Happy" => "😊",
+            "Sad" => "😢",
+            "Excited" => "🤩",
+            "Stressed" => "😫",
+            "Neutral" => "😐",
+            _ => "📝"
+        };
+    }
+
+    private void OpenDate(DateTime date)
+    {
+        if (date == DateTime.MinValue) return;
+        
+        // Navigate to the main page with this date selected
+        
+        NavManager.NavigateTo("/"); 
+    }
+
+    // Helper class for the UI
+    class CalendarDay
+    {
+        public DateTime Date { get; set; }
+        public bool IsToday { get; set; }
+        public bool HasEntry { get; set; }
+        public string MoodEmoji { get; set; } = "";
+    }
+}
